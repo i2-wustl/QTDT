@@ -68,7 +68,7 @@ void DescribeModels()
          printf("%s %s", i ? " +" : "", nullMatrix.GetColumnLabel(i));
       printf("\n");
 
-      bool flag = false;
+      int flag = 0;
       for (int i = 1; i <= qtdt.varComponentNull; i <<=1 )
          if (qtdt.varComponentNull & i)
             printf("%s %s", flag++ ? " +" : " Variances =", variances.GetLabel(i));
@@ -107,7 +107,7 @@ void DescribeModels()
       printf("%s %s", i ? " +" : "", fullMatrix.GetColumnLabel(i));
    printf("\n");
 
-   bool flag = false;
+   int flag = 0;
    for (int i = 1; i <= qtdt.varComponentFull; i <<=1 )
       if (qtdt.varComponentFull & i)
         printf("%s %s", flag++ ? " +" : " Variances =", variances.GetLabel(i));

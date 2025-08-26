@@ -5,7 +5,6 @@
 
 # version information
 VERSION = 2.6.1
-PSVERSION = 0.6.12
 
 # default installation directory
 INSTALLDIR=/usr/local/bin
@@ -19,8 +18,7 @@ BINDIR = executables
 QTDT = $(BINDIR)/qtdt
 PRELUDE = $(BINDIR)/prelude
 FINALE = $(BINDIR)/finale
-PEDSTATS = $(BINDIR)/pedstats
-EXECUTABLES = $(QTDT) $(PRELUDE) $(FINALE) $(PEDSTATS)
+EXECUTABLES = $(QTDT) $(PRELUDE) $(FINALE)
 
 # QTDT File Set
 QTDTSRC = qtdt/Qtdt.cpp qtdt/QtdtUi.cpp qtdt/QtdtDescribe.cpp \
@@ -89,12 +87,6 @@ $(PRELUDE) : $(LIBFILE) extras/prelude.cpp $(LIBHDR)
 $(FINALE) : $(LIBFILE) extras/finale.cpp $(LIBHDR)
 	$(CXX) $(CFLAGS) -o $@ extras/finale.cpp $(LIBFILE) -lz
 
-$(PEDSTATS) : pedstats-$(PSVERSION).tar.gz
-	gunzip -c pedstats-$(PSVERSION).tar.gz | tar -xf -
-	cd pedstats-$(PSVERSION) ; $(MAKE) executables/pedstats
-	cp pedstats-$(PSVERSION)/executables/pedstats executables
-	rm -rf pedstats-$(PSVERSION)
-
 $(LIBFILE) : $(LIBOBJ) $(LIBHDR)
 	ar -cr $@ $(LIBOBJ)
 	ranlib $@
@@ -131,7 +123,6 @@ fetch :
 	cd $(FETCHDIR) ; cp $(LIBSRC) $(LIBHDR) $(DISTRIBDIR)/libsrc
 	cp $(FETCHDIR)/prelude/prelude.cpp $(DISTRIBDIR)/extras
 	cp $(FETCHDIR)/prelude/finale.cpp $(DISTRIBDIR)/extras
-	cd $(DISTRIBDIR) ; wget -r -nd -N http://www.sph.umich.edu/csg/abecasis/pedstats/download/pedstats-$(PSVERSION).tar.gz
 	cd $(DISTRIBDIR) ; csh ../stamp QTDT
 
 .c.o :

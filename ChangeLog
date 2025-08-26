@@ -1,0 +1,20 @@
+VERSION 2.4.4
+=============
+
+This version incorporates a much improved version of PedStats,
+with many enhancements. For details, see:
+http://www.sph.umich.edu/csg/abecasis/pedstats/
+
+This version incorporates the following minor bug fixes:
+
+   * Fix to test for a significance difference in the 
+     effect of maternally and paternally inherited alleles,
+     when used in conjunction with the total association test.
+
+   * Prelude handling of markers that have only 1 allele,
+     when generating Simwalk2 files.
+
+   * Enhancements to core libraries speed up handling of 
+     very large pedigree files.
+
+This ChangeLog file was created on December 1, 2004

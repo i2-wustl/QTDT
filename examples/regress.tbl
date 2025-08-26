@@ -1,0 +1,204 @@
+Trait: Trait_1         Marker: SNP_1           Allele: 1
+===========================================================
+Total Probands: 99
+Var(Y):         83.82
+First 10 Y values - Qtdt.y : 108.057  88.718  87.382 104.440  86.167  94.444 113.884  97.304  96.287  98.042 
+
+NULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 2] Mu     B 
+            1.3  1 -1.00 
+            2.3  1 -0.50 
+            3.3  1  1.00 
+            4.3  1  0.00 
+            5.3  1  0.50 
+            6.3  1 -0.50 
+            7.3  1 -0.50 
+            8.3  1 -0.50 
+            9.3  1 -0.50 
+           11.3  1  0.00 
+
+Some useful information...
+               df : 97
+              RSS : 7436.18
+Estimates - svd.x : 100.529  -5.540 
+
+FULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 3] Mu     B     W 
+            1.3  1 -1.00  0.00 
+            2.3  1 -0.50  0.50 
+            3.3  1  1.00  0.00 
+            4.3  1  0.00  0.00 
+            5.3  1  0.50  0.50 
+            6.3  1 -0.50 -0.50 
+            7.3  1 -0.50 -0.50 
+            8.3  1 -0.50 -0.50 
+            9.3  1 -0.50  0.50 
+           11.3  1  0.00  0.00 
+
+Some useful information...
+               df : 96
+              RSS : 6838.61
+Estimates - svd.x : 100.537  -5.744  -5.158 
+
+
+Trait: Trait_1         Marker: SNP_1           Allele: 2
+===========================================================
+Total Probands: 99
+Var(Y):         83.82
+First 10 Y values - Qtdt.y : 108.057  88.718  87.382 104.440  86.167  94.444 113.884  97.304  96.287  98.042 
+
+NULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 2] Mu     B 
+            1.3  1  1.00 
+            2.3  1  0.50 
+            3.3  1 -1.00 
+            4.3  1  0.00 
+            5.3  1 -0.50 
+            6.3  1  0.50 
+            7.3  1  0.50 
+            8.3  1  0.50 
+            9.3  1  0.50 
+           11.3  1  0.00 
+
+Some useful information...
+               df : 97
+              RSS : 7436.18
+Estimates - svd.x : 100.529   5.540 
+
+FULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 3] Mu     B     W 
+            1.3  1  1.00  0.00 
+            2.3  1  0.50 -0.50 
+            3.3  1 -1.00  0.00 
+            4.3  1  0.00  0.00 
+            5.3  1 -0.50 -0.50 
+            6.3  1  0.50  0.50 
+            7.3  1  0.50  0.50 
+            8.3  1  0.50  0.50 
+            9.3  1  0.50 -0.50 
+           11.3  1  0.00  0.00 
+
+Some useful information...
+               df : 96
+              RSS : 6838.61
+Estimates - svd.x : 100.537   5.744   5.158 
+
+
+Trait: Trait_2         Marker: SNP_1           Allele: 1
+===========================================================
+Total Probands: 99
+Var(Y):         110.17
+First 10 Y values - Qtdt.y : 105.977 106.389 109.226  86.438  98.330 106.162 106.387  96.711  93.650  97.508 
+
+NULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 2] Mu     B 
+            1.3  1 -1.00 
+            2.3  1 -0.50 
+            3.3  1  1.00 
+            4.3  1  0.00 
+            5.3  1  0.50 
+            6.3  1 -0.50 
+            7.3  1 -0.50 
+            8.3  1 -0.50 
+            9.3  1 -0.50 
+           11.3  1  0.00 
+
+Some useful information...
+               df : 97
+              RSS : 10723.25
+Estimates - svd.x :  99.272   1.707 
+
+FULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 3] Mu     B     W 
+            1.3  1 -1.00  0.00 
+            2.3  1 -0.50  0.50 
+            3.3  1  1.00  0.00 
+            4.3  1  0.00  0.00 
+            5.3  1  0.50  0.50 
+            6.3  1 -0.50 -0.50 
+            7.3  1 -0.50 -0.50 
+            8.3  1 -0.50 -0.50 
+            9.3  1 -0.50  0.50 
+           11.3  1  0.00  0.00 
+
+Some useful information...
+               df : 96
+              RSS : 10373.77
+Estimates - svd.x :  99.278   1.552  -3.945 
+
+
+Trait: Trait_2         Marker: SNP_1           Allele: 2
+===========================================================
+Total Probands: 99
+Var(Y):         110.17
+First 10 Y values - Qtdt.y : 105.977 106.389 109.226  86.438  98.330 106.162 106.387  96.711  93.650  97.508 
+
+NULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 2] Mu     B 
+            1.3  1  1.00 
+            2.3  1  0.50 
+            3.3  1 -1.00 
+            4.3  1  0.00 
+            5.3  1 -0.50 
+            6.3  1  0.50 
+            7.3  1  0.50 
+            8.3  1  0.50 
+            9.3  1  0.50 
+           11.3  1  0.00 
+
+Some useful information...
+               df : 97
+              RSS : 10723.25
+Estimates - svd.x :  99.272  -1.707 
+
+FULL HYPOTHESIS
+---------------
+
+First 10 lines of regression matrix...
+  [Qtdt.linear] =
+       [10 x 3] Mu     B     W 
+            1.3  1  1.00  0.00 
+            2.3  1  0.50 -0.50 
+            3.3  1 -1.00  0.00 
+            4.3  1  0.00  0.00 
+            5.3  1 -0.50 -0.50 
+            6.3  1  0.50  0.50 
+            7.3  1  0.50  0.50 
+            8.3  1  0.50  0.50 
+            9.3  1  0.50 -0.50 
+           11.3  1  0.00  0.00 
+
+Some useful information...
+               df : 96
+              RSS : 10373.77
+Estimates - svd.x :  99.278  -1.552   3.945 
+
+

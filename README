@@ -1,3 +1,12 @@
+# QTDT
+
+An original copy of [QTDT][0] downloaded from:
+
+https://csg.sph.umich.edu/abecasis/QTDT/download/qtdt-2.6.1.tar.gz
+
+# Original README
+
+```
 QTDT - Linkage Disequilibrium Analysis for Quantitative Traits
 (c) 1998 - 2002 Goncalo Abecasis
 
@@ -17,4 +26,6 @@ To register this copy of QTDT e-mail:   goncalo@umich.edu
 
 QTDT source code must not be redistributed under any circumstances,
 without prior written permission from the authors.
+```
 
+[0]: https://csg.sph.umich.edu/abecasis/QTDT/index.html
